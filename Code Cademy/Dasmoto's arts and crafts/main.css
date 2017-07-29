@@ -1,0 +1,43 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  color: khaki;
+  font-weight: bold;
+  font-size: 100px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg); 
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.title-1 {
+  background-color: mediumspringgreen;
+}
+
+.title-2 {
+  background-color: lightcoral;
+}
+
+.title-3 {
+  background-color: skyblue;
+}
+
+strong {
+  color: blue;
+}
